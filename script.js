@@ -52,7 +52,7 @@ async function recognizeFaces() {
 }
 
 function loadLabeledImages() {
-    const labels = ['RM', 'Jhope', 'Suga', 'Jin']
+    const labels = ['RM', 'Jhope', 'Suga', 'Jin','V','Jimin','Jungkook']
     console.log(labels);
     return Promise.all(
         labels.map(async (label) => {
